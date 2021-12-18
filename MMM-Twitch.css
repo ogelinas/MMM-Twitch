@@ -1,0 +1,54 @@
+/*
+ *
+ * MMM-Twitch
+ *
+ * Olivier Gélinas
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ */
+
+/* div {
+    line-height:    24px;
+    border:         0;
+    margin:         0;
+    padding:        0;
+}
+
+img {
+    width:          12px;
+    height:         12px;
+    padding-bottom: 2px;
+    padding-right:  10px;
+} */
+
+.channel_name {
+    padding-left: 10px;
+}
+
+.channel_status{
+    display: inline-block;
+}
+
+.channel_offline {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: current;
+    border: 1px solid #666666;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+.channel_online {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: #6441A4;
+    border: 1px solid #FFFFFF;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
