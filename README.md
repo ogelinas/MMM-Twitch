@@ -21,14 +21,14 @@ Here is an example of an entry in `config.js`
     position:   'top_left',
     header:     'Twitch',
     config: {
-	    client_id:              "<YOUR_KEY>",
-		channels: [
-		    {
-		        display_name:   "<DISPLAY_NAME>",
-		        channel_id:     <CHANNEL_ID>
-		    }
-		]
-	},
+        client_id:              "<YOUR_KEY>",
+        channels: [
+            {
+                display_name:   "<DISPLAY_NAME>",
+                channel_id:     <CHANNEL_ID>
+            }
+        ]
+    },
 },
 ```
 
