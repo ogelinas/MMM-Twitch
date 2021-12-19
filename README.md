@@ -1,5 +1,7 @@
 # MMM-Twitch
-Twitch MagicMirror module
+A MagicMirror module showing a list of channels and their status.<br>
+
+![Example of MMM-Twitch](images/sample.png?raw=true "Example screenshot")
 
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder and execute `git clone https://github.com/ogelinas/MMM-Twitch`.  A new folder `MMM-Twitch` will appear, navigate into it.
