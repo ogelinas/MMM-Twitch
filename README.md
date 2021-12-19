@@ -17,9 +17,9 @@ Add the module to your modules array in your config.js.
 Here is an example of an entry in `config.js`
 ```
 {
-    module:		'MMM-Twitch',
-    position:	'top_left',
-    header:		'Twitch',
+    module:     'MMM-Twitch',
+    position:   'top_left',
+    header:     'Twitch',
     config: {
 	    client_id:              "<YOUR_KEY>",
 		channels: [
