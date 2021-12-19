@@ -21,11 +21,11 @@ Here is an example of an entry in `config.js`
     position:	'top_left',
     header:		'Twitch',
     config: {
-	    client_id:				"<YOUR_KEY>",
+	    client_id:              "<YOUR_KEY>",
 		channels: [
 		    {
-		        display_name:	"<DISPLAY_NAME>",
-		        channel_id:		<CHANNEL_ID>
+		        display_name:   "<DISPLAY_NAME>",
+		        channel_id:     <CHANNEL_ID>
 		    }
 		]
 	},
@@ -39,7 +39,7 @@ Here is the documentation of options for the modules configuration:
 |--------------------- |-----------
 | `client_id`          | *Required* Twitch Authentication api key.<br><br>**Type:** `string`
 | `updateInterval`     | Optional set to desired update interval (in ms), default is 900000 (15 minutes).<br><br>**Type:**  `int` <br> **Default value:** 900000
-| `channels`           | *Required* List of Twitch channel. The object is formatted as follows: ```{display_name:	"<DISPLAY_NAME>", channel_id:<CHANNEL_ID>}``` where DISPLAY_NAME is a string wich represent the name of the channel and CHANNEL_ID is an integer wich is the id of the channel.<br><br>**Type:**  `array` <br> **Default value:** `[]`
+| `channels`           | *Required* List of Twitch channel. The object is formatted as follows: ```{display_name: "<DISPLAY_NAME>", channel_id: <CHANNEL_ID>}``` where &lt;DISPLAY_NAME&gt; is a string wich represent the name of the channel and &lt;CHANNEL_ID&gt; is an integer wich is the id of the channel.<br><br>**Type:**  `array` <br> **Default value:** `[]`
 
 
 ## Special thanks
