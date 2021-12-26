@@ -153,9 +153,10 @@ Module.register("MMM-Twitch", {
 
 				var status = document.createElement('td');
 				tr.appendChild(status);
+
 				var channel_status = document.createElement('div');
 				channel_status.classList.add("small", "channel_status");
-				tr.appendChild(channel_status);
+				status.appendChild(channel_status);
 
 				var channel_name = document.createElement("td");
 				channel_name.classList.add("small", "channel_name");
@@ -164,6 +165,7 @@ Module.register("MMM-Twitch", {
 				
 				var viewers = document.createElement("td");
 				tr.appendChild(viewers);
+				
 				if (isOnline > 0) {
 					//channel_status.src = this.file("icons/online.png");
 					channel_status.classList.add("channel_online");
