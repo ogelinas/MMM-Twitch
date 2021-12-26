@@ -23,6 +23,10 @@ img {
     padding-right:  10px;
 } */
 
+div.twitch {
+    display:        inline-block;
+}
+
 .channel_name {
     padding-left: 10px;
 }

@@ -137,6 +137,7 @@ Module.register("MMM-Twitch", {
 		if (this.response) {
 
 			var twitch_wrapper = document.createElement("div");
+			twitch_wrapper.classList.add("twitch");
 			wrapper.appendChild(twitch_wrapper);
 
 			var table = document.createElement("table");
@@ -165,7 +166,7 @@ Module.register("MMM-Twitch", {
 				
 				var viewers = document.createElement("td");
 				tr.appendChild(viewers);
-				
+
 				if (isOnline > 0) {
 					//channel_status.src = this.file("icons/online.png");
 					channel_status.classList.add("channel_online");
