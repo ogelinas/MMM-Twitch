@@ -35,6 +35,10 @@ div.twitch {
     display: inline-block;
 }
 
+.viewers {
+    padding-left: 20px;
+}
+
 .channel_offline {
     border-radius: 50%;
     width: 12px;

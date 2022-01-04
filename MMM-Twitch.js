@@ -165,6 +165,7 @@ Module.register("MMM-Twitch", {
 				tr.appendChild(channel_name);
 				
 				var viewers = document.createElement("td");
+				viewers.classList.add("small", "bright", "viewers");
 				tr.appendChild(viewers);
 
 				if (isOnline > 0) {
