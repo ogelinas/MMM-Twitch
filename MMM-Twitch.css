@@ -37,6 +37,7 @@ div.twitch {
 
 .viewers {
     padding-left: 20px;
+    text-align: right;
 }
 
 .channel_offline {
